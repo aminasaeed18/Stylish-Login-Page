@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroungpink"
+    tools:context=".MainActivity">
+
+<android.support.v7.widget.CardView
+    app:cardCornerRadius="28dp"
+    android:layout_marginTop="60dp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/pinkiii"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="600dp">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="222dp"
+            android:background="@drawable/backgroundblue"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+
+            <TextView
+                android:id="@+id/text2"
+                android:textSize="25dp"
+                android:textColor="#DB8E88"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please Sign In"
+                />
+            <EditText
+                android:textColor="#ffff"
+                android:textColorHighlight="#DB8E88"
+                android:id="@+id/edit1"
+                android:backgroundTint="#DB8E88"
+                android:layout_marginTop="10dp"
+                android:hint="Username"
+                android:textColorHint="#DB8E88"
+                android:layout_marginLeft="30dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edit2"
+                android:textColor="#ffff"
+                android:textColorHighlight="#DB8E88"
+                android:backgroundTint="#DB8E88"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="#DB8E88"
+                android:layout_marginLeft="30dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text3"
+        android:layout_marginLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:textColor="#DB8E88"
+        />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_marginLeft="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#DB8E88"
+        />
+</LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>
